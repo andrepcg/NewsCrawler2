@@ -76,7 +76,7 @@
       <file leaf-file-name="ojogo.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/parsers/ojogo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="64" selection-start="516" selection-end="516" vertical-scroll-proportion="0.2681388" vertical-offset="85" max-vertical-offset="935">
+            <state line="21" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.42902207" vertical-offset="85" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -85,7 +85,7 @@
       <file leaf-file-name="crawler.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="106" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2312">
+            <state line="29" column="3" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2312">
               <folding />
             </state>
           </provider>
@@ -243,24 +243,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Recomendacao Noticias" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewsCrawler2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parsers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -727,12 +709,12 @@
       <workItem from="1408400849021" duration="19909000" />
       <workItem from="1409538723146" duration="310000" />
       <workItem from="1409539175640" duration="93000" />
-      <workItem from="1409598171729" duration="1147000" />
+      <workItem from="1409598171729" duration="3266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357688000" />
+    <option name="totallyTimeSpent" value="359807000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -756,7 +738,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -778,7 +760,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15814696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2857143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2857143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -897,16 +879,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler.js">
+    <entry file="file://$PROJECT_DIR$/app/parsers/jornalnoticias.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="106" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2312">
+        <state line="30" column="0" selection-start="931" selection-end="931" vertical-scroll-proportion="0.5709779" vertical-offset="148" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/parsers/jornalnoticias.js">
+    <entry file="file://$PROJECT_DIR$/crawler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="931" selection-end="931" vertical-scroll-proportion="0.5709779" vertical-offset="148" max-vertical-offset="935">
+        <state line="29" column="3" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2312">
           <folding />
         </state>
       </provider>
@@ -920,7 +902,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/parsers/ojogo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="64" selection-start="516" selection-end="516" vertical-scroll-proportion="0.2681388" vertical-offset="85" max-vertical-offset="935">
+        <state line="21" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.42902207" vertical-offset="85" max-vertical-offset="935">
           <folding />
         </state>
       </provider>

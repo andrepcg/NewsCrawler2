@@ -26,8 +26,8 @@ function Crawler(sites, crontime, tfidf) {
 /*
     parsers.getURLsFromPage("http://www.ojogo.pt/aominuto/", function(err, data){console.log(data);});
     parsers.getURLsFromPage({url: "http://feeds.controlinveste.pt/DV-ultimas", site: "http://dinheirovivo.pt"}, function(err, data){console.log(data);});
- */
     parsers.parseNoticia("http://www.ojogo.pt/opiniao/Cronistas/jorgemaia/interior.aspx?content_id=4102644", function(err, data){console.log(data);});
+ */
 
     var newsParsed;
 

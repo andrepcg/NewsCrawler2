@@ -19,7 +19,7 @@ module.exports = {
         r.keywords = [utils.limparTexto($(".ArtContainer_1 .Title_5").text())];
 
         var img = $(".ArtContainer_1 .ArtPic_1 img").attr("src");
-        console.log(img)
+
         if(img !== undefined)
             r.imgURL = "http://cdn.controlinveste.pt" + img;
 
