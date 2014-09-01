@@ -1,0 +1,30 @@
+{
+  "name": "newscrawler",
+  "description": "0.0.1",
+  "main": "app.js",
+  "subdomain": "newscrawler",
+  "version": "0.0.1",
+  "dependencies": {
+    "async": "latest",
+    "cheerio": "0.17.0",
+    "cron": "latest",
+    "crypto-js": "latest",
+    "dateformat": "latest",
+    "iconv-lite": "0.4.4",
+    "jschardet": "latest",
+    "moment": "^2.8.1",
+    "mongoose": "~3.8.14",
+    "request": "latest",
+    "sanitize-html": "1.3.0",
+    "underscore": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "author": "andrepcg"
+}
