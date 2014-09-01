@@ -6,7 +6,7 @@
   "version": "0.0.1",
   "dependencies": {
     "async": "latest",
-    "cheerio": "0.17.0",
+    "cheerio": "latest",
     "cron": "latest",
     "crypto-js": "latest",
     "dateformat": "latest",

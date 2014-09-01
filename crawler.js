@@ -10,16 +10,24 @@ mongoose.connection.on('close', function() {
     console.log('MongoDB disconnected!');
     mongoose.connect("mongodb://andrepcg2:LvhzD0BY4vXz1FhVzVDr@ds045099.mongolab.com:45099/noticias_txt", {server:{auto_reconnect:true}});
 });
+mongoose.connection.on('disconnected', function() {
+    console.log('MongoDB disconnected!');
+    mongoose.connect("mongodb://andrepcg2:LvhzD0BY4vXz1FhVzVDr@ds045099.mongolab.com:45099/noticias_txt", {server:{auto_reconnect:true}});
+});
+mongoose.connection.on('error', function() {
+    console.log('MongoDB disconnected!');
+    mongoose.connect("mongodb://andrepcg2:LvhzD0BY4vXz1FhVzVDr@ds045099.mongolab.com:45099/noticias_txt", {server:{auto_reconnect:true}});
+});
 
 function Crawler(sites, crontime, tfidf) {
     var self = this;
     console.log("Crawler started");
 
 /*
+    parsers.getURLsFromPage("http://www.ojogo.pt/aominuto/", function(err, data){console.log(data);});
     parsers.getURLsFromPage({url: "http://feeds.controlinveste.pt/DV-ultimas", site: "http://dinheirovivo.pt"}, function(err, data){console.log(data);});
-    parsers.getURLsFromPage("http://feeds.controlinveste.pt/DV-ultimas", function(err, data){console.log(data);});
-    parsers.parseNoticia("http://www.dinheirovivo.pt/Economia/interior.aspx?content_id=4083851", function(err, data){console.log(data);});
  */
+    parsers.parseNoticia("http://www.ojogo.pt/opiniao/Cronistas/jorgemaia/interior.aspx?content_id=4102644", function(err, data){console.log(data);});
 
     var newsParsed;
 

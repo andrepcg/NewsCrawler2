@@ -36,6 +36,7 @@ var sites = ["http://www.publico.pt/ultimas",
              "http://www.deco.proteste.pt/nt/noticia/lista",
              "http://diariodigital.sapo.pt/ultimas_noticias.asp",
              {url: "http://feeds.controlinveste.pt/DV-ultimas", site: "http://dinheirovivo.pt"},
+             "http://www.ojogo.pt/aominuto",
              "http://www.noticiasaominuto.com"
             ];
 
