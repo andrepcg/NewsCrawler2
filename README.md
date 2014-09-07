@@ -4,4 +4,3 @@ NewsCrawler
 ===========
 
 Portuguese news crawler
-
