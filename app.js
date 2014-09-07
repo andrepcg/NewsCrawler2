@@ -1,6 +1,12 @@
+require('nodetime').profile({
+    accountKey: '61800f4ee2e561efe86314bb98e3df42fa91181e',
+    appName: 'NewsCrawler'
+});
+
 var Crawler = require('./crawler');
 
 // TODO tfidf guardado na BD
+
 
 var tfidf = require("./tfidf");
 tfidf.loadTerms("tfidf.json");

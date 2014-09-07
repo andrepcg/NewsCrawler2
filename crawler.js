@@ -6,6 +6,7 @@ var parsers = require("./app/parsers.js");
 var mongoose = require("mongoose");
 
 mongoose.connect("mongodb://andrepcg2:LvhzD0BY4vXz1FhVzVDr@ds045099.mongolab.com:45099/noticias_txt");
+/*
 mongoose.connection.on('close', function() {
     console.log('MongoDB disconnected!');
     mongoose.connect("mongodb://andrepcg2:LvhzD0BY4vXz1FhVzVDr@ds045099.mongolab.com:45099/noticias_txt", {server:{auto_reconnect:true}});
@@ -18,7 +19,7 @@ mongoose.connection.on('error', function() {
     console.log('MongoDB disconnected!');
     mongoose.connect("mongodb://andrepcg2:LvhzD0BY4vXz1FhVzVDr@ds045099.mongolab.com:45099/noticias_txt", {server:{auto_reconnect:true}});
 });
-
+*/
 function Crawler(sites, crontime, tfidf) {
     var self = this;
     console.log("Crawler started");
@@ -115,10 +116,9 @@ function Crawler(sites, crontime, tfidf) {
             },
 
             function (err) {
-                if (err)
-                    console.error(err);
+                //if (err)
+                    //console.error(err);
 
-                //if (!err)
                 console.log("Finished cron", Date(), "- noticias encontradas: " + newsParsed);
 
                 //console.log("A guardar TFIDF");

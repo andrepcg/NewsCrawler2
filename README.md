@@ -1,4 +1,4 @@
-[ ![Codeship Status for andrepcg/NewsCrawler](https://www.codeship.io/projects/6c2fb8f0-e6af-0131-ffe4-6211f4561cb3/status)](https://www.codeship.io/projects/25874)
+[ ![Codeship Status for andrepcg/NewsCrawler2](https://www.codeship.io/projects/ed930080-190c-0132-7f54-42683fc8aedf/status)](https://www.codeship.io/projects/34311)
 
 NewsCrawler
 ===========
