@@ -23,7 +23,7 @@ var noticiaSchema = mongoose.Schema({
     keywords: [String]
 });
 
-noticiaSchema.plugin(random());
+noticiaSchema.plugin(random);
 noticiaSchema.plugin(textSearch);
 
 
