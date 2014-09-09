@@ -17,7 +17,6 @@
     "request": "latest",
     "sanitize-html": "1.3.0",
     "underscore": "latest",
-	"nodetime": "latest",
 	"mongoose-random": "latest",
 	"mongoose-text-search": "latest"
   },
