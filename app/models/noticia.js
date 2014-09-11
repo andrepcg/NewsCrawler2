@@ -9,6 +9,7 @@ var noticiaSchema = mongoose.Schema({
     timestamp:	    Date,
     textoNoticia:   String,
     imgURL:         String,
+    media:          String,
     url:            String,
     jornal:         String,
     jornalLowercase:String,

@@ -21,7 +21,7 @@ module.exports = {
         r.textoNoticia = utils.limparTexto($(".news-item .content p").text());
 
         r.categoria = $(".top-bar-menu .current-menu-parent").text();
-        if(!categoria)
+        if(!r.categoria)
             r.categoria = $(".news-item .topic").text();
 
         r.keywords = [];
