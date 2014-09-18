@@ -26,6 +26,12 @@ module.exports = {
         r.categoria = $(".levels .levelsAnchors:nth-child(2)").text().trim();
         r.keywords = [$("#artigo .article-pretitle").text().trim()];
 
+        $("#artigo #keywords a").each(function(i, item){
+            var t = $(item).text().trim();
+            if(r.keywords.indexOf(t) == -1)
+                r.keywords.push(t);
+        });
+
         if(r.titulo == "")
             return null;
         else

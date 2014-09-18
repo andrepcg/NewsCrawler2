@@ -16,6 +16,7 @@ var sites = ["http://www.publico.pt/ultimas",
              "http://exameinformatica.sapo.pt",
              "http://sicnoticias.sapo.pt/noticias",
              "http://www.abola.pt/nnh",
+             "http://www.abola.pt/mundos/mais_mundos.aspx",
              "http://www.jn.pt/paginainicial/ultimas",
              "http://visao.sapo.pt/gen.pl?sid=vs.sections/23412",
              "http://expresso.sapo.pt/gen.pl?p=arquivo",
@@ -38,13 +39,16 @@ var sites = ["http://www.publico.pt/ultimas",
              "http://diariodigital.sapo.pt/ultimas_noticias.asp",
              {url: "http://feeds.controlinveste.pt/DV-ultimas", site: "http://dinheirovivo.pt"},
              "http://www.ojogo.pt/aominuto",
+             "http://fugas.publico.pt/RSS",
+             "http://www.destak.pt/",
+             "http://www.cmjornal.xl.pt/cm_ao_minuto.html",
+             "http://rr.sapo.pt/ultimasNoticias.aspx?tab=1",
              "http://www.noticiasaominuto.com"
             ];
 
 // TODO computerworld.com.pt pt.euronews.com tvi24.iol.pt menshealth.com.pt
 // TODO myway.pt.msn.com lazer.publico.pt cinema.sapo.pt adorocinema.com cinemas.nos.pt
 // TODO cmjornal.xl.pt querosaber.sapo.pt superinteressante.pt lux.iol.pt marketeer.pt bit.pt maxima.xl.pt
-// TODO revista21.net publituris.pt fugas.publico.pt autohoje.com desporto.sapo.pt
-// TODO destak.pt
+// TODO revista21.net publituris.pt autohoje.com desporto.sapo.pt
 
 var c = new Crawler(sites, '*/5 * * * *', tfidf);

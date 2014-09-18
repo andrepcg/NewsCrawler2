@@ -15,7 +15,7 @@ module.exports = {
         r.timestamp = moment($("#a5x").text(), "hh:mm - DD-MM-YYYY").toDate();
         r.imgURL = $("#a5g1 img").attr("src");
         r.textoNoticia = utils.limparTexto($("#noticiatext").text());
-        r.categoria = "Desporto";
+        //r.categoria = "Desporto";
 
         if(r.titulo == "")
             return null;
@@ -27,16 +27,26 @@ module.exports = {
         $ = cheerio.load(html);
         var r = [];
 
-        var links = $('a[href]');
-        $(links).each(function(i, link){
+        $("#a5i a[href*='ver']").each(function(i, link){
             var a = $(link).attr('href');
 
-            if(a.match(/ver.aspx?id=[0-9]+/)){
-                r.push((a.indexOf("http") >= 0) ? "" : "http://www.abola.pt/nnh/" + a);
-            }
+            if($(link).attr("id").indexOf("mundos") >= 0)
+                r.push("http://www.abola.pt/mundos/" + a);
+            else
+                r.push("http://www.abola.pt/nnh/" + a);
+
         });
 
         cb(r.filter(utils.onlyUnique));
+    },
+
+    categoriaFromUrl: function(url){
+        url = url.replace("http://");
+        var split = url.split("/");
+        if(split[1] == "nnh")
+            return "Desporto";
+        else
+            return "Mundos";
     }
 
 }

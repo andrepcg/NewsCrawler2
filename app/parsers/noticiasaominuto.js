@@ -17,7 +17,7 @@ module.exports = {
         r.timestamp = new Date($("#newscontainer [itemprop=datePublished]").attr("content"));
 
         r.imgURL = $("#newscontainer .pic [itemprop=image]").attr("src");
-        r.textoNoticia = utils.limparTexto($("#newscontainer .newsfull").text());
+        r.textoNoticia = utils.limparTexto($("#newscontainer .newsfull").text()).replace("PUB // ", "");
         r.categoria = utils.limparTexto($("#newscontainer .pic .categorie").text());
         r.keywords = [utils.limparTexto($("#newscontainer .title .tag").text())];
         if(r.titulo == "")

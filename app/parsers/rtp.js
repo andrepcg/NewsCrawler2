@@ -34,7 +34,7 @@ module.exports = {
             });
         }
         else
-            r.textoNoticia = content.find("header > h2").text();
+            r.textoNoticia = utils.limparTexto(content.find("header > h2").text());
 
 
 

@@ -17,7 +17,7 @@ var sicnoticias = {
         r.timestamp = moment($(".articleFullDetail .listContainer > div .dateContainer").text(),"HH:mm DD.MM.YYYY").toDate();
 
         var img = $(".articleFullDetail .listContainer > div ").attr("data-thumbnail");
-        if(img.indexOf("null") == -1)
+        if(img && img.indexOf("null") == -1)
             r.imgURL = $(".articleFullDetail .listContainer > div ").attr("data-thumbnail");
 
         var media = $(".articleFullDetail .listContainer > div ").attr("data-src");
