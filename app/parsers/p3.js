@@ -22,18 +22,19 @@ module.exports = {
                 r.imgURL = img;
 
             r.textoNoticia = utils.limparTexto($("#blocotexto > p").text());
-            r.categoria = $(".blocotexto_titulo h4").text();
+            r.categoria = $(".navlogo .on_actualidade").text();
 
             r.keywords = [];
             $(".colfina_tags p").each(function(i, item){
                 r.keywords.push($(item).text().trim());
             });
+            r.keywords.push($(".blocotexto_titulo h4").text());
 
             //if($(".immersive-story-wrapper").length == 0){
             var link = $("fb\\:like").attr("href");
 
             //r.alternateUrl = ["http://p3.publico.pt" + ((a = link.indexOf("?")) >= 0) ? link.substr(0, a) : link];
-            r.alternateUrl = ["http://p3.publico.pt" + link];
+            r.alternateUrl = [link];
 
             if(r.titulo == "")
                 return null;

@@ -28,8 +28,8 @@ function Crawler(sites, crontime, tfidf) {
 /*
     parsers.getURLsFromPage("http://www.abola.pt/mundos/mais_mundos.aspx", function(err, data){console.log(data);});
     parsers.getURLsFromPage({url: "http://feeds.controlinveste.pt/DV-ultimas", site: "http://dinheirovivo.pt"}, function(err, data){console.log(data);});
- */
     parsers.parseNoticia("http://www.abola.pt/mundos/ver.aspx?id=500901", function(err, data){console.log(data);});
+ */
 
     var newsParsed;
 

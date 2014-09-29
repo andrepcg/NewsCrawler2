@@ -49,6 +49,6 @@ var sites = ["http://www.publico.pt/ultimas",
 // TODO computerworld.com.pt pt.euronews.com tvi24.iol.pt menshealth.com.pt
 // TODO myway.pt.msn.com lazer.publico.pt cinema.sapo.pt adorocinema.com cinemas.nos.pt
 // TODO cmjornal.xl.pt querosaber.sapo.pt superinteressante.pt lux.iol.pt marketeer.pt bit.pt maxima.xl.pt
-// TODO revista21.net publituris.pt autohoje.com desporto.sapo.pt
+// TODO revista21.net publituris.pt autohoje.com desporto.sapo.pt ptjornal.com
 
 var c = new Crawler(sites, '*/5 * * * *', tfidf);

@@ -28,13 +28,13 @@ module.exports = {
         else
             r.textoNoticia = r.textoNoticia.substr(0, r.textoNoticia.indexOf("Mais artigos:"));
 
-        //r.categoria = $(".category-list a:nth-of-type(1)").text();
+        r.categoria = "Desporto";
 
         r.keywords = [];
         $(".artigo_center2 .tagsArtigo a").each(function(i, item){
-            if(i == 0)
-                r.categoria = $(item).text().trim();
-            r.keywords.push($(item).text());
+            //if(i == 0)
+                //r.categoria = $(item).text().trim();
+            r.keywords.push($(item).text().trim());
         });
 
 

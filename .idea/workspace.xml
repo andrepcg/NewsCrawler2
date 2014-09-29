@@ -67,7 +67,7 @@
       <file leaf-file-name="crawler.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="71" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2329">
+            <state line="31" column="3" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2329">
               <folding />
             </state>
           </provider>
@@ -103,7 +103,7 @@
       <file leaf-file-name="utils.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="8" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="1581">
+            <state line="38" column="8" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1581">
               <folding />
             </state>
           </provider>
@@ -112,7 +112,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="47" selection-start="789" selection-end="789" vertical-scroll-proportion="0.30178174" vertical-offset="86" max-vertical-offset="1020">
+            <state line="44" column="54" selection-start="2182" selection-end="2183" vertical-scroll-proportion="0.73719376" vertical-offset="86" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -202,7 +202,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1932" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -253,6 +253,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -305,8 +307,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -776,12 +776,13 @@
       <workItem from="1410827610362" duration="7106000" />
       <workItem from="1410895499239" duration="996000" />
       <workItem from="1410903204183" duration="4980000" />
-      <workItem from="1410999885362" duration="432000" />
+      <workItem from="1410999885362" duration="599000" />
+      <workItem from="1411316353842" duration="200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="378226000" />
+    <option name="totallyTimeSpent" value="378593000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -804,7 +805,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -825,13 +826,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15795091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15761448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2857143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1121,16 +1122,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/parsers/rr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="8" selection-start="1707" selection-end="1755" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="71" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2329">
+        <state line="31" column="3" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2329">
           <folding />
         </state>
       </provider>
@@ -1149,9 +1143,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/parsers/rr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="8" selection-start="1707" selection-end="1755" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="789" selection-end="789" vertical-scroll-proportion="0.30178174" vertical-offset="86" max-vertical-offset="1020">
+        <state line="44" column="54" selection-start="2182" selection-end="2183" vertical-scroll-proportion="0.73719376" vertical-offset="86" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>

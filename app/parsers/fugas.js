@@ -19,7 +19,8 @@ module.exports = {
             r.imgURL = img;
 
         r.textoNoticia = utils.limparTexto($("#content .news-item .entry-content p").text());
-        r.categoria = $(".news-item p.subtitle").attr("class").split("-")[1];
+        if($(".news-item p.subtitle").length > 0)
+            r.categoria = $(".news-item p.subtitle").attr("class").split("-")[1];
 
 
         if(r.titulo == "")

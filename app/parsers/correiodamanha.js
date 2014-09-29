@@ -10,30 +10,33 @@ module.exports = {
 
     parseNoticiaHTML: function(html){
         $ = cheerio.load(html);
-        var r = {};
-        r.titulo = utils.limparTexto($(".NoticiaTituloTxt").text());
-        r.subtitulo = utils.limparTexto($(".NoticiaTituloSubTxt").text());
+            var r = {};
+            if($(".canaisTop").length == 0){
+            r.titulo = utils.limparTexto($(".NoticiaTituloTxt").text());
+            r.subtitulo = utils.limparTexto($(".NoticiaTituloSubTxt").text());
 
-        r.timestamp = moment($(".NoticiaDataDestaque").text(),"DD.MM.YYYY  HH:mm").toDate();
+            r.timestamp = moment($(".NoticiaDataDestaque").text(),"DD.MM.YYYY  HH:mm").toDate();
 
-        var i = $(".relative.fotoManchete01 img").attr("src");
+            var i = $(".relative.fotoManchete01 img").attr("src");
 
-        if(i != "/i/ImagemDefaultCM_757_426.jpg")
-            r.imgURL = "http://www.cmjornal.xl.pt" + i;
+            if(i != "/i/ImagemDefaultCM_757_426.jpg")
+                r.imgURL = "http://www.cmjornal.xl.pt" + i;
 
-        r.textoNoticia = utils.limparTexto($(".mioloNoticia p").text());
+            r.textoNoticia = utils.limparTexto($(".mioloNoticia p").text());
 
-        r.categoria = $(".NoticiaMaisNoticaisPreto").text();
+            r.categoria = $(".NoticiaMaisNoticaisPreto").text();
 
-        r.keywords = [];
-        $(".mioloNoticiaFooterItens a").each(function(i, item){
-            r.keywords.push($(item).text().trim());
-        });
+            r.keywords = [];
+            $(".mioloNoticiaFooterItens a").each(function(i, item){
+                r.keywords.push($(item).text().trim());
+            });
 
-        if(r.titulo == "")
-            return null;
-        else
-            return r;
+            if(r.titulo == "")
+                return null;
+            else
+                return r;
+        }
+        else return null;
     },
 
     extractNoticiasFromPage: function(html, cb){
